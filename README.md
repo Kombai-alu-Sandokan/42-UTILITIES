@@ -2,7 +2,7 @@
 
 
 ---
-> Shared with usefull functions needed in 42 projects, mostly simple algorithms implemented at the 42 norm. 
+> Shared repo with usefull functions needed in 42 projects, mostly simple algorithms implemented at the 42 norm. 
 
   
 
