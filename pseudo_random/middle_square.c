@@ -2,7 +2,7 @@
  * Simple implementation of midle square method for
  * generating pseudorandom number in a range [0..n].
  *
- * Simply call myRandInRange(int min, int max)
+ * Simply call ft_rand_range(int min, int max)
  * 		 ! max-min must be < 100000 !
  *
  * You can change the initial seed by setting next
@@ -13,8 +13,6 @@
  * After a certain of repetition the generator get 
  * stuck and output only zeroes or a repetitive
  * sequence.
- * 
- * https://en.wikipedia.org/wiki/Middle-square_method 
  */
 
 int	ft_rand(void)
@@ -29,5 +27,3 @@ int	ft_rand_range(int min, int max)
 {
 	return (ft_rand() % (max + 1 - min) + min);
 }
-
-/* call ft_rand_range with a range [0, n] */
